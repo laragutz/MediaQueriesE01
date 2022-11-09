@@ -124,6 +124,7 @@ body{
         width: 30vw;
         height: 100%;
         display: flex;
+        order: 2;
         justify-content: center;
         align-items: center;
         border-right: black 1px solid;
@@ -157,6 +158,7 @@ body{
         height: 20vh;
         padding: 5vh 0vh 0vh 5vh;
         background-color: bisque;
+        text-align: center;
     }
     .main__proyectos{
         display: flex;
@@ -167,8 +169,8 @@ body{
     .main__proyectos--project{
         width: 80%;
         border: 1px solid black;
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        gris-template-columns: 5fr 5fr;
         justify-content: center;
         align-items: center;
         margin: 10px;
